@@ -9,6 +9,8 @@
     "react-scripts": "3.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -29,16 +31,8 @@
       "last 1 safari version"
     ]
   },
-  "description": "A simple search tool  for searching images",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vigneshashokan/image-search.git"
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   },
-  "author": "vigneshashokan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vigneshashokan/image-search/issues"
-  },
-  "homepage": "https://github.com/vigneshashokan/image-search#readme"
+  "homepage": "https://vigneshashokan.github.io/image-search"
 }

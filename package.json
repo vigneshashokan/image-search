@@ -1,5 +1,5 @@
 {
-  "name": "pics",
+  "name": "image-search",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -28,5 +28,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "A simple search tool  for searching images",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigneshashokan/image-search.git"
+  },
+  "author": "vigneshashokan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vigneshashokan/image-search/issues"
+  },
+  "homepage": "https://github.com/vigneshashokan/image-search#readme"
 }
